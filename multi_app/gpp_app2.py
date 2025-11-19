@@ -3,7 +3,7 @@ from openai import OpenAI
 
 st.set_page_config(page_title="gpt-5-mini demo")
 
-st.title("gpt-5-mini 질의응답 데모")
+st.title("gpt-5-mini와 질의응답")
 
 # 1. API Key를 session_state에 저장
 st.subheader("1. OpenAI API Key 입력")
