@@ -49,5 +49,4 @@ if st.button("질문 보내기"):
         st.error("질문을 입력하세요.")
     else:
         answer = ask_gpt_cached(question)
-        st.markdown("### gpt-5-mini의 응답")
         st.write(answer)
